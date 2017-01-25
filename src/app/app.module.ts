@@ -14,6 +14,7 @@ import { CityPage } from  '../pages/city/city';
 import { FollowupPage } from  '../pages/followup/followup';
 
 
+
 export const firebaseConfig = {
    apiKey: "AIzaSyA2L_sIFFq4Z0hxr5Qy6ZDkS1e44ktboR0",
     authDomain: "uploadtest-44f1e.firebaseapp.com",

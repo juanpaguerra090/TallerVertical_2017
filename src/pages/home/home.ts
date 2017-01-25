@@ -1,22 +1,64 @@
-import { Component } from '@angular/core';
+import { Component, ElementRef, OnInit } from '@angular/core';
 import { NavController, AlertController, ModalController } from 'ionic-angular';
-import {AngularFire, FirebaseListObservable} from 'angularfire2'
+import {AngularFire, AuthProviders, AuthMethods, FirebaseListObservable} from 'angularfire2'
 import { TabsPage } from '../tabs/tabs';
+
 
 @Component({
   selector: 'page-home',
   templateUrl: 'home.html'
 })
 
-export class HomePage {
-
+export class HomePage implements OnInit {
+  root: any;
   users: FirebaseListObservable<any>;	
 
-  constructor(public navCtrl: NavController, public alertCtrl: AlertController, angFire: AngularFire) {
-    this.users = angFire.database.list('/users');
-//    this.agenda = users.agenda
+ constructor(public navCtrl: NavController, public alertCtrl: AlertController, public angFire: AngularFire,  public element : ElementRef) {
+    this.users = angFire.database.list('/Users');
+
+    if(!this.isAlreadyLoggedIn()){
+      console.log("Not logged yet, redirect to login page");
+                  this.navCtrl.setRoot(TabsPage,{})
+
+        //this.navCtrl.push(LoginPage);
+    }
+
   }
 
+  isAlreadyLoggedIn(){
+    let user = window.localStorage.getItem('user');
+    return user !== null && user !== undefined;
+  }
+
+  ngOnInit(){
+    this.root = this.element.nativeElement;
+    
+    var loginBtn = this.root.querySelector('#loginBtn');
+    loginBtn.addEventListener('click',this.onClick.bind(this));
+  }
+
+  onClick(e){
+    console.log("Login in");
+    let self = this;
+    let email:string = this.root.querySelector('#email').value;
+    let password:string = this.root.querySelector('#password').value;
+    this.angFire.auth.login({
+      email: email,
+      password:password
+    },{
+      provider: AuthProviders.Password,
+      method: AuthMethods.Password,
+    }).then(function(response){
+      let user = {
+        email:response.auth.email,
+        picture:response.auth.photoURL
+      };
+      self.navCtrl.pop();
+    }).catch(function(error){
+      console.log(error);
+    });
+    
+  }
 
   addUser(): void{
 
