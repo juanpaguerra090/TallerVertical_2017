@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { NavController, AlertController, ModalController } from 'ionic-angular';
 import {AngularFire, FirebaseListObservable} from 'angularfire2'
+import { TabsPage } from '../tabs/tabs';
 
 @Component({
   selector: 'page-home',
@@ -75,6 +76,7 @@ export class HomePage {
                 valoracion : false
               }
               })
+              this.navCtrl.setRoot(TabsPage,{})
   				
   				}
   			}
@@ -112,6 +114,7 @@ export class HomePage {
           text:"Log In",
           handler: data => {
             console.log("Log In");
+            this.navCtrl.setRoot(TabsPage,{})
           }
         }
       ]
