@@ -6,6 +6,12 @@ import { ContactPage } from '../pages/contact/contact';
 import { HomePage } from '../pages/home/home';
 import { TabsPage } from '../pages/tabs/tabs';
 import {AngularFireModule} from 'angularfire2';
+import { AccomodationPage } from '../pages/accomodation/accomodation';
+import { MigrationPage } from '../pages/migration/migration';
+import { FlightPage } from  '../pages/flight/flight';
+import { TransportationPage } from  '../pages/transportation/transportation';
+import { CityPage } from  '../pages/city/city';
+import { FollowupPage } from  '../pages/followup/followup';
 
 
 export const firebaseConfig = {
@@ -22,7 +28,13 @@ export const firebaseConfig = {
     AboutPage,
     ContactPage,
     HomePage,
-    TabsPage
+    TabsPage,
+    AccomodationPage,
+    MigrationPage,
+    FlightPage,
+    TransportationPage,
+    CityPage,
+    FollowupPage
   ],
   imports: [
     IonicModule.forRoot(MyApp),
@@ -34,7 +46,13 @@ export const firebaseConfig = {
     AboutPage,
     ContactPage,
     HomePage,
-    TabsPage
+    TabsPage,
+    AccomodationPage,
+    MigrationPage,
+    FlightPage,
+    TransportationPage,
+    CityPage,
+    FollowupPage
   ],
   providers: [{provide: ErrorHandler, useClass: IonicErrorHandler}]
 })

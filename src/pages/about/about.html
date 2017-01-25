@@ -1,11 +1,43 @@
 <ion-header>
   <ion-navbar>
     <ion-title>
-      About
+      About (Travel Tips)
     </ion-title>
   </ion-navbar>
 </ion-header>
 
 <ion-content padding>
+
+  <ion-list>
+    <button ion-item (click) = nextPageMig();>
+      <ion-icon name="clipboard" item-left></ion-icon>
+      Migratory Requirements
+    </button>
+
+    <button ion-item (click) = nextPageFli();>
+      <ion-icon name="plane" item-left></ion-icon>
+      Flight
+    </button>
+
+    <button ion-item (click) = nextPageAc();>
+      <ion-icon name="home" item-left></ion-icon>
+      Accomodation
+    </button>
+
+    <button ion-item (click) = nextPageTra();>
+      <ion-icon name="bus" item-left></ion-icon>
+      Transportation
+    </button>
+    <button ion-item (click) = nextPageCit();>
+      <ion-icon name="map" item-left></ion-icon>
+      About the city
+    </button>
+
+    <button ion-item (click) = nextPageFol();>
+      <ion-icon name="checkmark" item-left></ion-icon>
+      Follow up
+    </button>
+
+  </ion-list>
 
 </ion-content>
