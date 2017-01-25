@@ -1,17 +1,30 @@
 import { NgModule, ErrorHandler } from '@angular/core';
 import { IonicApp, IonicModule, IonicErrorHandler } from 'ionic-angular';
 import { MyApp } from './app.component';
+//Navigation
 import { AboutPage } from '../pages/about/about';
 import { ContactPage } from '../pages/contact/contact';
 import { HomePage } from '../pages/home/home';
 import { TabsPage } from '../pages/tabs/tabs';
 import {AngularFireModule} from 'angularfire2';
+//Tips
 import { AccomodationPage } from '../pages/accomodation/accomodation';
 import { MigrationPage } from '../pages/migration/migration';
 import { FlightPage } from  '../pages/flight/flight';
 import { TransportationPage } from  '../pages/transportation/transportation';
 import { CityPage } from  '../pages/city/city';
 import { FollowupPage } from  '../pages/followup/followup';
+import { ProfilePage } from '../pages/profile/profile';
+import { AgendaPage } from '../pages/agenda/agenda';
+//Agenda
+import { ApplicationPage } from '../pages/application/application';
+import { RevisionPage } from '../pages/revision/revision';
+import { ValidationPage } from  '../pages/validation/validation';
+import { PreparationPage } from  '../pages/preparation/preparation';
+import { OperationPage } from  '../pages/operation/operation';
+import { PostopPage } from  '../pages/postop/postop';
+
+
 
 
 
@@ -35,7 +48,15 @@ export const firebaseConfig = {
     FlightPage,
     TransportationPage,
     CityPage,
-    FollowupPage
+    FollowupPage,
+    ProfilePage, 
+    AgendaPage,
+    ApplicationPage,
+    RevisionPage,
+    ValidationPage,
+    PreparationPage,
+    OperationPage,
+    PostopPage
   ],
   imports: [
     IonicModule.forRoot(MyApp),
@@ -53,7 +74,15 @@ export const firebaseConfig = {
     FlightPage,
     TransportationPage,
     CityPage,
-    FollowupPage
+    FollowupPage,
+    ProfilePage,
+    AgendaPage,
+    ApplicationPage,
+    RevisionPage,
+    ValidationPage,
+    PreparationPage,
+    OperationPage,
+    PostopPage
   ],
   providers: [{provide: ErrorHandler, useClass: IonicErrorHandler}]
 })

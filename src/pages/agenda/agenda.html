@@ -14,5 +14,54 @@
 
 
 <ion-content padding>
+<ion-list>
+    <button ion-item (click) = nextPageApp();>
+      <ion-thumbnail item-left>
+      <img src="assets/img/curriculum-2.png">
+    </ion-thumbnail>
+    <h2>Application and Medical History</h2>
+    <p>Done</p>
+    </button>
 
+    <button ion-item (click) = nextPageRev();>
+      <ion-thumbnail item-left>
+      <img src="assets/img/doctor.png">
+    </ion-thumbnail>
+    <h2>Clinical Case Revision</h2>
+    <p>Done</p>
+    </button>
+
+    <button ion-item (click) = nextPageVal();>
+      <ion-thumbnail item-left>
+      <img src="assets/img/stethoscope.png">
+    </ion-thumbnail>
+    <h2>Validation Consult</h2>
+    <p>Being processed</p>
+    </button>
+
+    <button ion-item (click) = nextPagePre();>
+      <ion-thumbnail item-left>
+      <img src="assets/img/calendar.png">
+    </ion-thumbnail>
+    <h2>Preparation Before Process</h2>
+    <p>Waiting for previous steps.</p>
+    </button>
+
+    <button ion-item (click) = nextPageOp();>
+      <ion-thumbnail item-left>
+      <img src="assets/img/surgeon.png">
+    </ion-thumbnail>
+    <h2>Operation</h2>
+    <p>Waiting for previous steps.</p>
+    </button>
+
+    <button ion-item (click) = nextPagePos();>
+      <ion-thumbnail item-left>
+      <img src="assets/img/medicines.png">
+    </ion-thumbnail>
+    <h2>Post-Op Care</h2>
+    <p>Waiting for previous steps.</p>
+    </button>
+
+  </ion-list>
 </ion-content>
