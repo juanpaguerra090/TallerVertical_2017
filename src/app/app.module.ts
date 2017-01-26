@@ -23,6 +23,8 @@ import { ValidationPage } from  '../pages/validation/validation';
 import { PreparationPage } from  '../pages/preparation/preparation';
 import { OperationPage } from  '../pages/operation/operation';
 import { PostopPage } from  '../pages/postop/postop';
+import { AgmCoreModule } from 'angular2-google-maps/core';
+
 
 
 
@@ -60,7 +62,9 @@ export const firebaseConfig = {
   ],
   imports: [
     IonicModule.forRoot(MyApp),
-    AngularFireModule.initializeApp(firebaseConfig)
+    AngularFireModule.initializeApp(firebaseConfig),
+        AgmCoreModule.forRoot({apiKey: 'AIzaSyDhOsx7BzHsG0qzaRqaD2ABZYMqD9EGBPo'})
+
   ],
   bootstrap: [IonicApp],
   entryComponents: [
