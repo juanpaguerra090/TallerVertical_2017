@@ -2,15 +2,14 @@
 ### LIN-ISC
 ##### Demo del Sistema: 
 ##### Integrantes del Equipo: 
-#
-Héctor Arreola
-Michelle Martinez Lopez
-Daniel Contreras
-Juan Pablo Ramirez
-Gerardo Alapizco
-Paola Vázquez Casillas
-Danny Martínez
-Héctor Hurtado
+Héctor Arreola - 
+Michelle Martinez Lopez -
+Daniel Contreras -
+Juan Pablo Ramirez -
+Gerardo Alapizco -
+Paola Vázquez Casillas -
+Danny Martínez - 
+Héctor Hurtado -
 Luis Gonzalez
 ##### Descripción del Proyecto
 A lo largo de esta semana aumentamos la eficacia y la eficiencia de los tramites necesarios para ser un turista con fines médicos. En el Centro Médico Puerta de Hierro, existian muchos pasos que necesitaban de mucho trabajo humano. Lo que realizamos es una aplicación que le permite al paciente tener una comunicación constante con el centro médico al poder ver el status de su solicitud. De la misma manera, también podrá ver los atractivos de la región así como recomendaciones en la zona. 
