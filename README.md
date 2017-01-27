@@ -30,14 +30,14 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste tenetur ea facere
 * Google Firebase
 
 ##### Requirements
-###### PATIENT'S APPLICATION
+###### PATIENTS APPLICATION
 - The patient can observe in an orderly way the steps to follow for a successful surgery.
 - The patient can simply contact the doctor of his choice.
 - The patient can locate different places around the hospital, such as hotels, restaurants, tourist places, etc.
 - The patient know how to get to the hospital from the airport and vice versa.
 - The patient can review their personal information and edit it.
 
-###### HOSPITAL'S APPLICATION
+###### HOSPITAL APPLICATION
 - The hospital can see the list of patients who are waiting for an operation
 - The hospital can see the list of doctors who work there.
 - The hospital can update the patient's status regarding the steps that he or she has to follow for successful surgery.
