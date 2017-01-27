@@ -2,7 +2,6 @@
 ### LIN-ISC
 ##### Demo del Sistema: 
 ##### Integrantes del Equipo: 
-#
 Héctor Arreola
 Michelle Martinez Lopez
 Daniel Contreras
