@@ -12,7 +12,7 @@ Daniel Martínez -
 Héctor Hurtado -
 Luis Gonzalez
 ##### Descripción del Proyecto
-A lo largo de esta semana aumentamos la eficacia y la eficiencia de los tramites necesarios para ser un turista con fines médicos. En el Centro Médico Puerta de Hierro, existian muchos pasos que necesitaban de mucho trabajo humano. Lo que realizamos es una aplicación que le permite al paciente tener una comunicación constante con el centro médico al poder ver el status de su solicitud. De la misma manera, también podrá ver los atractivos de la región así como recomendaciones en la zona. 
+Throughout this week, we improved efficiency and efficacy of the process of getting involved in medical tourism. At centro Médico Puerta de Hierro, there were a lot of steps needed to accomplish this. And not only steps, but also a lot of workforce was involved. So we realized that they needed an application that could provide access to all patients information. But this solution is a two-way solution. It is available for a relation between the patient and the medical team. Using real-time technology we are able to provide instant feedback to the steps the patient needs to do. When the initial request is submitted, the medical team at the hospital receives an e-mail with the details of the patient including his/her clinical history and contact details.  
 
 ##### Descripción y factibilidad de la solución propuesta.
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste tenetur ea facere, quibusdam sunt, ratione adipisci quasi in magnam magni harum? Iusto quae sunt quod cumque deserunt dignissimos eius voluptas.
@@ -22,7 +22,7 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste tenetur ea facere
 
 ##### Deploy
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste tenetur ea facere, quibusdam sunt, ratione adipisci quasi in magnam magni harum? Iusto quae sunt quod cumque deserunt dignissimos eius voluptas.
-##### Tecnologías Usadas
+##### Technologies Used
 * IONIC2 Framework 
 * Google Maps API
 * Google Analytics
@@ -42,5 +42,5 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste tenetur ea facere
 - The hospital can see the list of doctors who work there.
 - The hospital can update the patient's status regarding the steps that he or she has to follow for successful surgery.
 
-##### Reflexión y conclusiones.
-El servicio tiene que estar en mejora constante para ser uno de los centros médicos con la más alta calidad, y se deben optimizar los procesos mediante el uso de la tecnología. Al poder ofrecer este servicio, es posible otorgar una aplicación de vanguardia que permita un beneficio para todas las partes involucradas. Para el usuario final, una aplicación sencilla y facil de usar, pero con el potencial de ofrecer información al instante y en tiempo real acerca de su status como paciente. Para el equipo medico, podrán ver el status de todos sus paciente. Y el equipo administrativo podrá ver el status de todos los pacientes y su relación con el equipo médico.
+##### Conclusions
+This solution needs to include a program of continuous improvement. With this being done, CMPdH will be one of the hospitals with state-of-the-art technology for the interaction between the medical team and patients. The final user will be able to check on his application status and also check any special observations the medical team has to say. The medical team, they will be able to see the status, clinical history and more information for every single patiente they've been assigned to. Also, administrative personnel will be able to check every active patient status in order to be up-to-date with every one of them.
