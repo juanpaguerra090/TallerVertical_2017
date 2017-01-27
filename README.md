@@ -2,15 +2,23 @@
 ### LIN-ISC
 ##### System demo 
 ##### Team members
-Héctor Arreola - 
-Michelle Martinez Lopez -
-Daniel Contreras -
-Juan Pablo Ramirez -
-Gerardo Alapizco -
-Paola Vázquez Casillas -
-Daniel Martínez - 
-Héctor Hurtado -
-Luis Gonzalez
+Héctor Arreola - A00231770
+
+Michelle Martínez López - A00960226
+
+Daniel Contreras - A01017852
+
+Juan Pablo Ramírez - A01226136
+
+Gerardo Alapizco - A01112115
+
+Paola Vázquez Casillas - A01225665
+
+Daniel Martínez - A01631436
+
+Héctor Hurtado - A01228533
+
+Luis González
 
 ##### Project description
 Throughout this week, we improved efficiency and efficacy of the process of getting involved in medical tourism. At centro Médico Puerta de Hierro, there were a lot of steps needed to accomplish this. And not only steps, but also a lot of workforce was involved. So we realized that they needed an application that could provide access to all patients information. But this solution is a two-way solution. It is available for a relation between the patient and the medical team. Using real-time technology we are able to provide instant feedback to the steps the patient needs to do. When the initial request is submitted, the medical team at the hospital receives an e-mail with the details of the patient including his/her clinical history and contact details.  
