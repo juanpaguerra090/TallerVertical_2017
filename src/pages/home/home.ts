@@ -14,7 +14,7 @@ export class HomePage implements OnInit {
   users: FirebaseListObservable<any>;	
 
  constructor(public navCtrl: NavController, public alertCtrl: AlertController, public angFire: AngularFire,  public element : ElementRef) {
-    this.users = angFire.database.list('/Users');
+    this.users = angFire.database.list('/users');
 
     if(!this.isAlreadyLoggedIn()){
       console.log("Not logged yet, redirect to login page");

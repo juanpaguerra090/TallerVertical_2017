@@ -1,19 +1,21 @@
 import { Component } from '@angular/core';
 import { NavController, NavParams } from 'ionic-angular';
+import {AngularFire, FirebaseListObservable} from 'angularfire2';
 
-/*
-  Generated class for the Revision page.
 
-  See http://ionicframework.com/docs/v2/components/#navigation for more info on
-  Ionic pages and navigation.
-*/
 @Component({
   selector: 'page-revision',
   templateUrl: 'revision.html'
 })
-export class RevisionPage {
 
-  constructor(public navCtrl: NavController, public navParams: NavParams) {}
+export class RevisionPage {
+  users: FirebaseListObservable<any>;	
+
+  constructor(public navCtrl: NavController, public navParams: NavParams, angFire: AngularFire) {
+  	    this.users = angFire.database.list('/users/RCaaNtxzs7QVlwPsASrXFYSelCD2');
+  	    //console.log(this.users.datos.nombre)
+
+  }
 
   ionViewDidLoad() {
     console.log('ionViewDidLoad RevisionPage');
