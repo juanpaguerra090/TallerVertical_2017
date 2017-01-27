@@ -53,6 +53,7 @@ export class HomePage implements OnInit {
         email:response.auth.email,
         picture:response.auth.photoURL
       };
+      console.log(email);
       self.navCtrl.pop();
     }).catch(function(error){
       console.log(error);
