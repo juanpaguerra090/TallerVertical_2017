@@ -8,7 +8,7 @@ Daniel Contreras -
 Juan Pablo Ramirez -
 Gerardo Alapizco -
 Paola Vázquez Casillas -
-Danny Martínez - 
+Daniel Martínez - 
 Héctor Hurtado -
 Luis Gonzalez
 ##### Descripción del Proyecto
