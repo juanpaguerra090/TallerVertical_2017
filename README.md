@@ -11,17 +11,16 @@ Paola Vázquez Casillas -
 Daniel Martínez - 
 Héctor Hurtado -
 Luis Gonzalez
+
 ##### Descripción del Proyecto
 Throughout this week, we improved efficiency and efficacy of the process of getting involved in medical tourism. At centro Médico Puerta de Hierro, there were a lot of steps needed to accomplish this. And not only steps, but also a lot of workforce was involved. So we realized that they needed an application that could provide access to all patients information. But this solution is a two-way solution. It is available for a relation between the patient and the medical team. Using real-time technology we are able to provide instant feedback to the steps the patient needs to do. When the initial request is submitted, the medical team at the hospital receives an e-mail with the details of the patient including his/her clinical history and contact details.  
 
-##### Descripción y factibilidad de la solución propuesta.
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste tenetur ea facere, quibusdam sunt, ratione adipisci quasi in magnam magni harum? Iusto quae sunt quod cumque deserunt dignissimos eius voluptas.
-
-##### Justificación de la sustentabilidad del proyecto.
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste tenetur ea facere, quibusdam sunt, ratione adipisci quasi in magnam magni harum? Iusto quae sunt quod cumque deserunt dignissimos eius voluptas.
-
 ##### Deploy
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste tenetur ea facere, quibusdam sunt, ratione adipisci quasi in magnam magni harum? Iusto quae sunt quod cumque deserunt dignissimos eius voluptas.
+The CMPH application was built with Ionic, a framework whose applications are written using web components, and can be published for Android and iOS. The official Ionic page shows how to publish the application on both platforms. To follow step by step instructions can be seen in the following link: https://ionicframework.com/docs/guide/publishing.html
+
+##### Installation
+For users, the only thing they need to do is download the application from App Store or Google Play depending on the Operating System of your phone. Once downloaded, the application will be initialized in a login window, where the user can enter or register. Once inside, the application is ready to be used.
+
 ##### Technologies Used
 * IONIC2 Framework 
 * Google Maps API
