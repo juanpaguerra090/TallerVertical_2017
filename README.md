@@ -29,13 +29,18 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste tenetur ea facere
 * AngularJS
 * Google Firebase
 
+##### Requirements
+###### PATIENT'S APPLICATION
+- The patient can observe in an orderly way the steps to follow for a successful surgery.
+- The patient can simply contact the doctor of his choice.
+- The patient can locate different places around the hospital, such as hotels, restaurants, tourist places, etc.
+- The patient know how to get to the hospital from the airport and vice versa.
+- The patient can review their personal information and edit it.
 
-
-##### Requerimientos
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste tenetur ea facere, quibusdam sunt, ratione adipisci quasi in magnam magni harum? Iusto quae sunt quod cumque deserunt dignissimos eius voluptas.
-
-##### Opcional: Health [Continuous Integration]
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste tenetur ea facere, quibusdam sunt, ratione adipisci quasi in magnam magni harum? Iusto quae sunt quod cumque deserunt dignissimos eius voluptas.
+###### HOSPITAL'S APPLICATION
+- The hospital can see the list of patients who are waiting for an operation
+- The hospital can see the list of doctors who work there.
+- The hospital can update the patient's status regarding the steps that he or she has to follow for successful surgery.
 
 ##### Reflexión y conclusiones.
 El servicio tiene que estar en mejora constante para ser uno de los centros médicos con la más alta calidad, y se deben optimizar los procesos mediante el uso de la tecnología. Al poder ofrecer este servicio, es posible otorgar una aplicación de vanguardia que permita un beneficio para todas las partes involucradas. Para el usuario final, una aplicación sencilla y facil de usar, pero con el potencial de ofrecer información al instante y en tiempo real acerca de su status como paciente. Para el equipo medico, podrán ver el status de todos sus paciente. Y el equipo administrativo podrá ver el status de todos los pacientes y su relación con el equipo médico.
