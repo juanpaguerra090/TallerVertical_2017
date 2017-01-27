@@ -1,7 +1,7 @@
 # Taller Vertical 2017
 ### LIN-ISC
-##### Demo del Sistema: 
-##### Integrantes del Equipo: 
+##### System demo 
+##### Team members
 Héctor Arreola - 
 Michelle Martinez Lopez -
 Daniel Contreras -
